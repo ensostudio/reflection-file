@@ -1,0 +1,25 @@
+{
+    "name": "ensostudio/reflection-file",
+    "description": "Reports information about a PHP file: constants, functions, interfaces, traits and classes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enso studio",
+            "email": "info@ensostudio.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "phpdocumentor/reflection-docblock": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {"Ensostudio\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Ensostudio\\Tests\\": "tests/"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}

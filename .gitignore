@@ -1,2 +1,5 @@
-application/cache/*
-application/logs/*
+/vendor/*
+/build/*
+/nbproject/*
+.idea
+composer.lock
