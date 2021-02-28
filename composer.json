@@ -6,20 +6,15 @@
     "authors": [
         {
             "name": "Enso studio",
-            "email": "info@ensostudio.ru"
+            "email": "info@ensostudio.ru",
+            "role": "developer"
         }
     ],
     "require": {
         "php": "^7.1",
-        "phpdocumentor/reflection-docblock": ">=1.0"
+        "phpdocumentor/reflection-docblock": "^1.0"
     },
     "autoload": {
         "psr-4": {"Ensostudio\\": "src/"}
-    },
-    "autoload-dev": {
-        "psr-4": {"Ensostudio\\Tests\\": "tests/"}
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.0"
     }
 }
